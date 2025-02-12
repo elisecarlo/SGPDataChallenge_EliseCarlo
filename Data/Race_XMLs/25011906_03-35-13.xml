@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race>
+  <CreationTimeDate>2025-01-19T16:35:17+13:00</CreationTimeDate>
+  <RaceStartTime Start="2025-01-19T16:29:00+13:00" Postpone="False" />
+  <RaceID>25011906</RaceID>
+  <RaceType>Fleet</RaceType>
+  <Settings>
+    <Crew Number="C6" />
+    <Yacht Wing="LAW" Jib="J2" Daggerboard="LAB" Rudder="LARW" />
+  </Settings>
+  <Participants>
+    <Yacht SourceID="301" />
+    <Yacht SourceID="302" />
+    <Yacht SourceID="304" />
+    <Yacht SourceID="307" />
+    <Yacht SourceID="308" />
+    <Yacht SourceID="309" />
+    <Yacht SourceID="310" />
+    <Yacht SourceID="311" />
+    <Yacht SourceID="312" />
+    <Yacht SourceID="313" />
+    <Yacht SourceID="314" />
+  </Participants>
+  <Course>
+    <CompoundMark CompoundMarkID="1" Name="SL1">
+      <Mark SeqID="1" Name="SL1" TargetLat="-36.8345570" TargetLng="174.7699860" SourceID="401" />
+      <Mark SeqID="2" Name="SL2" TargetLat="-36.8352420" TargetLng="174.7677960" SourceID="402" />
+    </CompoundMark>
+    <CompoundMark CompoundMarkID="2" Name="M1">
+      <Mark SeqID="1" Name="M1" TargetLat="-36.8297130" TargetLng="174.7652700" SourceID="403" />
+    </CompoundMark>
+    <CompoundMark CompoundMarkID="3" Name="LG1">
+      <Mark SeqID="1" Name="LG1" TargetLat="-36.8345760" TargetLng="174.7559700" SourceID="404" />
+      <Mark SeqID="2" Name="LG2" TargetLat="-36.8329760" TargetLng="174.7537780" SourceID="405" />
+    </CompoundMark>
+    <CompoundMark CompoundMarkID="4" Name="WG1">
+      <Mark SeqID="1" Name="WG1" TargetLat="-36.8304300" TargetLng="174.7684010" SourceID="406" />
+      <Mark SeqID="2" Name="WG2" TargetLat="-36.8290160" TargetLng="174.7676510" SourceID="407" />
+    </CompoundMark>
+    <CompoundMark CompoundMarkID="5" Name="LG1">
+      <Mark SeqID="1" Name="LG1" TargetLat="-36.8345760" TargetLng="174.7559700" SourceID="404" />
+      <Mark SeqID="2" Name="LG2" TargetLat="-36.8329760" TargetLng="174.7537780" SourceID="405" />
+    </CompoundMark>
+    <CompoundMark CompoundMarkID="6" Name="WG1">
+      <Mark SeqID="1" Name="WG1" TargetLat="-36.8304300" TargetLng="174.7684010" SourceID="406" />
+      <Mark SeqID="2" Name="WG2" TargetLat="-36.8290160" TargetLng="174.7676510" SourceID="407" />
+    </CompoundMark>
+    <CompoundMark CompoundMarkID="7" Name="LG1">
+      <Mark SeqID="1" Name="LG1" TargetLat="-36.8345760" TargetLng="174.7559700" SourceID="404" />
+    </CompoundMark>
+    <CompoundMark CompoundMarkID="8" Name="FL1">
+      <Mark SeqID="1" Name="FL1" TargetLat="-36.8362730" TargetLng="174.7580790" SourceID="408" />
+      <Mark SeqID="2" Name="FL2" TargetLat="-36.8354260" TargetLng="174.7590550" SourceID="409" />
+    </CompoundMark>
+  </Course>
+  <CompoundMarkSequence>
+    <Corner SeqID="1" CompoundMarkID="1" Rounding="SP" ZoneSize="3" />
+    <Corner SeqID="2" CompoundMarkID="2" Rounding="Port" ZoneSize="3" />
+    <Corner SeqID="3" CompoundMarkID="3" Rounding="PS" ZoneSize="3" />
+    <Corner SeqID="4" CompoundMarkID="4" Rounding="SP" ZoneSize="3" />
+    <Corner SeqID="5" CompoundMarkID="5" Rounding="PS" ZoneSize="3" />
+    <Corner SeqID="6" CompoundMarkID="6" Rounding="SP" ZoneSize="3" />
+    <Corner SeqID="7" CompoundMarkID="7" Rounding="Port" ZoneSize="3" />
+    <Corner SeqID="8" CompoundMarkID="8" Rounding="PS" ZoneSize="3" />
+  </CompoundMarkSequence>
+  <CourseLimit name="Boundary" draw="1" avoid="0" fill="1" lock="0" colour="000000FF" notes="">
+    <Limit SeqID="1" Lat="-36.8300730" Lon="174.7512950" />
+    <Limit SeqID="2" Lat="-36.8272030" Lon="174.7620790" />
+    <Limit SeqID="3" Lat="-36.8279690" Lon="174.7677170" />
+    <Limit SeqID="4" Lat="-36.8290280" Lon="174.7701950" />
+    <Limit SeqID="5" Lat="-36.8340560" Lon="174.7714560" />
+    <Limit SeqID="6" Lat="-36.8373010" Lon="174.7607260" />
+    <Limit SeqID="7" Lat="-36.8369450" Lon="174.7602670" />
+    <Limit SeqID="8" Lat="-36.8362530" Lon="174.7593700" />
+    <Limit SeqID="9" Lat="-36.8363920" Lon="174.7570750" />
+    <Limit SeqID="10" Lat="-36.8366310" Lon="174.7551200" />
+    <Limit SeqID="11" Lat="-36.8358000" Lon="174.7542110" />
+    <Limit SeqID="12" Lat="-36.8342320" Lon="174.7526230" />
+  </CourseLimit>
+  <CourseLimit name="Exclusion Zone" draw="1" avoid="0" fill="0" lock="1" colour="00000000" notes="">
+    <Limit SeqID="1" Lat="-36.8352000" Lon="174.7454000" />
+    <Limit SeqID="2" Lat="-36.8269120" Lon="174.7487310" />
+    <Limit SeqID="3" Lat="-36.8261130" Lon="174.7612070" />
+    <Limit SeqID="4" Lat="-36.8278960" Lon="174.7722060" />
+    <Limit SeqID="5" Lat="-36.8295120" Lon="174.7728180" />
+    <Limit SeqID="6" Lat="-36.8285120" Lon="174.7771600" />
+    <Limit SeqID="7" Lat="-36.8382530" Lon="174.7746570" />
+    <Limit SeqID="8" Lat="-36.8376470" Lon="174.7680830" />
+    <Limit SeqID="9" Lat="-36.8393240" Lon="174.7663870" />
+    <Limit SeqID="10" Lat="-36.8390850" Lon="174.7654160" />
+    <Limit SeqID="11" Lat="-36.8409900" Lon="174.7644880" />
+    <Limit SeqID="12" Lat="-36.8393900" Lon="174.7576820" />
+    <Limit SeqID="13" Lat="-36.8371630" Lon="174.7602310" />
+    <Limit SeqID="14" Lat="-36.8364510" Lon="174.7592750" />
+    <Limit SeqID="15" Lat="-36.8366680" Lon="174.7574560" />
+    <Limit SeqID="16" Lat="-36.8380580" Lon="174.7559150" />
+    <Limit SeqID="17" Lat="-36.8377730" Lon="174.7528580" />
+    <Limit SeqID="18" Lat="-36.8360300" Lon="174.7534940" />
+  </CourseLimit>
+  <CourseLimit name="AY" draw="1" avoid="0" fill="1" lock="0" colour="00FF00FF" notes="">
+    <Limit SeqID="1" Lat="-36.8356020" Lon="174.7537530" />
+    <Limit SeqID="2" Lat="-36.8356390" Lon="174.7528740" />
+    <Limit SeqID="3" Lat="-36.8343310" Lon="174.7516600" />
+    <Limit SeqID="4" Lat="-36.8301590" Lon="174.7501210" />
+    <Limit SeqID="5" Lat="-36.8301040" Lon="174.7509770" />
+    <Limit SeqID="6" Lat="-36.8342170" Lon="174.7523980" />
+  </CourseLimit>
+  <CourseLimit name="BYOB" draw="1" avoid="0" fill="1" lock="0" colour="00FF0000" notes="">
+    <Limit SeqID="1" Lat="-36.8293250" Lon="174.7507310" />
+    <Limit SeqID="2" Lat="-36.8263690" Lon="174.7618070" />
+    <Limit SeqID="3" Lat="-36.8274390" Lon="174.7683990" />
+    <Limit SeqID="4" Lat="-36.8285710" Lon="174.7717180" />
+    <Limit SeqID="5" Lat="-36.8371030" Lon="174.7726940" />
+    <Limit SeqID="6" Lat="-36.8372360" Lon="174.7720750" />
+    <Limit SeqID="7" Lat="-36.8288180" Lon="174.7710520" />
+    <Limit SeqID="8" Lat="-36.8277110" Lon="174.7676970" />
+    <Limit SeqID="9" Lat="-36.8267500" Lon="174.7623740" />
+    <Limit SeqID="10" Lat="-36.8299230" Lon="174.7510710" />
+  </CourseLimit>
+</Race>

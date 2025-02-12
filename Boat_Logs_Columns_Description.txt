@@ -1,0 +1,47 @@
+
+Boat Logs Columns:
+1. BOAT: The unique identifier for the boat.
+2. DATETIME: The date and time of the log entry.
+3. TIME_LOCAL_unk: Local time of the log entry.
+4. LATITUDE_GPS_unk: The latitude coordinate from the GPS.
+5. LONGITUDE_GPS_unk: The longitude coordinate from the GPS.
+6. BOAT_SPEED_km_h_1: The speed of the boat in kilometers per hour.
+7. GPS_SOG_km_h_1: Speed over ground from GPS in kilometers per hour.
+8. HEADING_deg: The heading direction of the boat in degrees.
+9. TWA_SGP_deg: True wind angle in degrees.
+10. TWS_SGP_km_h_1: True wind speed in kilometers per hour.
+11. TWD_SGP_deg: True wind direction in degrees.
+12. AWA_SGP_deg: Apparent wind angle in degrees.
+13. RATE_YAW_deg_s_1: Yaw rate or rate of turn in degrees per second.
+14. GPS_COG_deg: Course over ground from GPS in degrees.
+15. LEEWAY_deg: Leeway angle in degrees.
+16. VMG_km_h_1: Velocity made good in kilometers per hour. (Not reliable).
+17. ANGLE_CA1_deg: Wing Camber 1 (bottom) in degrees.
+18. ANGLE_CA2_deg: Wing Camber 2 (middle) in degrees.
+19. ANGLE_CA3_deg: Wing Camber 3 (middle) in degrees.
+20. ANGLE_CA4_deg: Wing Camber 4 (middle) in degrees.
+21. ANGLE_CA5_deg: Wing Camber 5 (middle) in degrees.
+22. ANGLE_CA6_deg: Wing Camber 6 (top) in degrees.
+23. ANGLE_WING_TWIST_deg: Angle of wing twist in degrees (difference between CA1 and CA6).
+24. ANGLE_WING_ROT_deg: Wing rotation, of the first element in degrees.
+25. PITCH_deg: The pitch angle of the boat in degrees.
+26. HEEL_deg: The heel angle of the boat in degrees.
+27. LENGTH_RH_P_mm: Port hull ride height in millimeters.
+28. LENGTH_RH_S_mm: Starboard hull ride height in millimeters.
+29. LENGTH_RH_BOW_mm: Bow ride height in millimeters.
+30. ANGLE_RUDDER_deg: Angle of the rudder in degrees.
+31. ANGLE_RUD_AVG_deg: Average lift angle of the rudder.
+32. ANGLE_RUD_DIFF_TACK_deg: Tack corrected rudder differential angle in degrees.
+33. ANGLE_DB_RAKE_P_deg: Angle of foil rake port side in degrees.
+34. ANGLE_DB_RAKE_S_deg: Angle of foil rake starboard side in degrees.
+35. ANGLE_DB_CANT_P_deg: Angle of foil cant port side in degrees.
+36. ANGLE_DB_CANT_S_deg: Angle of foil cant starboard side in degrees.
+37. TRK_LEG_NUM_TOT_unk: Total number of legs of the race.
+38. TRK_LEG_NUM_unk: Current leg number.
+39. TRK_RACE_NUM_unk: Current race number.
+40. PC_TTS_s: Time to start in seconds (countdown).
+41. PC_TTK_s: Time to kill in seconds.
+42. PC_TTB_s: Time to boundary in seconds.
+43. PC_DTB_m: Distance to boundary in meters.
+44. PC_DTL_m: Distance to start line in meters.
+45. PC_TTM_s: Time to manoeuvre in seconds.
